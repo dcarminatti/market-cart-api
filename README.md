@@ -4,8 +4,6 @@ Este projeto é uma aplicação desenvolvida para auxiliar mercados no **cadastr
 
 > ⚠️ **Nota:** Esta é uma **versão genérica** da aplicação. A versão final utilizada pelo cliente **não foi publicada** para preservar informações sensíveis e personalizações específicas.
 
----
-
 ## 📌 Sobre o Projeto
 
 Desenvolvido como um projeto **freelancer**, este sistema tem como objetivo principal permitir que mercados realizem:
@@ -16,8 +14,6 @@ Desenvolvido como um projeto **freelancer**, este sistema tem como objetivo prin
 
 A versão presente neste repositório é voltada para fins **educacionais e demonstrativos**, servindo como **exemplo técnico** da solução desenvolvida.
 
----
-
 ## ⚙️ Tecnologias Utilizadas
 
 Este projeto utiliza um stack moderno com as seguintes tecnologias:
@@ -27,8 +23,6 @@ Este projeto utiliza um stack moderno com as seguintes tecnologias:
 - **PostgreSQL** – Banco de dados relacional.
 - **Docker** – Containerização da aplicação e do banco de dados.
 
----
-
 ## 🖥️ Funcionalidades Principais
 
 - ✅ Cadastro de produtos
@@ -37,8 +31,6 @@ Este projeto utiliza um stack moderno com as seguintes tecnologias:
 - ✅ API RESTful com autenticação básica
 - ✅ Persistência com PostgreSQL
 - ✅ Docker para facilitar a execução
-
----
 
 ## 🚀 Como Executar o Projeto
 
@@ -59,29 +51,10 @@ Este projeto utiliza um stack moderno com as seguintes tecnologias:
     - Backend (API): http://localhost:8080
     - Banco de dados: PostgreSQL na porta 5432
 
----
-
-## 📂 Estrutura do Projeto
-
-```bash
-dream-shops/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/marketapp/   # Código fonte Java
-│   │   └── resources/                    # Configurações e arquivos do Spring
-├── docker-compose.yml                    # Orquestração com Docker
-├── Dockerfile                            # Build da aplicação Java
-└── README.md
-```
-
----
-
 ## 🧑‍💻 Autor
 
 Desenvolvido por **Diogo** como projeto freelancer.  
 Para contato profissional ou oportunidades: https://www.linkedin.com/in/dcarminatti/
-
----
 
 ## 📄 Licença
 
