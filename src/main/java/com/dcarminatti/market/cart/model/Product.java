@@ -1,11 +1,13 @@
 package com.dcarminatti.market.cart.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 public class Product {
     @Id
@@ -23,4 +25,13 @@ public class Product {
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Image> images;
+
+    public Product(String name, String description, String brand, Float price, int quantity, Category category) {
+        this.name = name;
+        this.description = description;
+        this.brand = brand;
+        this.price = price;
+        this.quantity = quantity;
+        this.category = category;
+    }
 }

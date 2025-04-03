@@ -1,11 +1,14 @@
 package com.dcarminatti.market.cart.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.sql.Blob;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class Image {
     @Id
@@ -13,7 +16,6 @@ public class Image {
     private Long id;
     private String fileName;
     private String fileType;
-    private String filePath;
 
     @Lob
     private Blob image;
