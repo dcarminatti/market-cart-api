@@ -51,11 +51,6 @@ Este projeto utiliza um stack moderno com as seguintes tecnologias:
     - Backend (API): http://localhost:8080
     - Banco de dados: PostgreSQL na porta 5432
 
-## 🧑‍💻 Autor
-
-Desenvolvido por **Diogo** como projeto freelancer.  
-Para contato profissional ou oportunidades: https://www.linkedin.com/in/dcarminatti/
-
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
